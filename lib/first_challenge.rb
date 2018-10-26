@@ -14,9 +14,9 @@ def first_challenge
   }
 
   #your code here
-
-
-  #remember to return your newly altered contacts hash!
+contacts["Jon Snow"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
+   #remember to return your newly altered contacts hash!
   contacts
 end
+
 
