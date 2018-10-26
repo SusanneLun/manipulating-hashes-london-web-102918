@@ -7,6 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
+grocery_list = []
 groceries.values.each do |section_list|
     section_list.each do |item|
       grocery_list.push(item)
